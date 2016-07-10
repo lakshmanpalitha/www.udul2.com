@@ -1,0 +1,142 @@
+#advancedmenu {
+	margin:0 auto;
+ 	z-index:9;
+	position:relative;
+}
+div.menu {
+   /* float: left;*/
+}
+div.menu.act {
+   background:none;
+}
+div.menu.active {
+	background:none;
+	color:#5E5E5E ; 
+}
+div.megnor-advanced-menu-popup { 
+	top:auto;
+	left:248px !important;
+	min-width:500px;
+	margin-top:-40px;
+	
+	background-color: #fff;
+	padding: 10px;
+	display: none;
+	position: absolute;
+	border:1px solid #e5e5e5;
+	/*border-left:none;*/
+	transform:scale(0);
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	opacity:1;
+	-webkit-opacity:1;
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	transform-origin: left top;
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	
+	
+}
+.menu.menu-arrow:before{  color: #1f2022;    content: "\f105";    font-family: "FontAwesome";    font-size: 14px; position: absolute;     right: 10px;    top: 10px;}
+.menu.menu-arrow:hover:before{ color:#ff9c00;}
+#advancedmenu .level1 > a.itemMenuName {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.megnor-advanced-menu-popup_inner {
+    background: #ffffff none repeat scroll 0 0;
+    display: block;
+    float: left;
+    padding: 10px 15px;
+}
+ div.menu a,  div.megnor-advanced-menu-popup a {
+    color: #707070;
+    display: block;
+    font-size: 13px;
+    padding:0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div.megnor-advanced-menu-popup a		
+{ 
+	padding:0px 0px 5px;
+	text-transform:none;
+	
+}
+ div.megnor-advanced-menu-popup a:hover{}
+div.megnor-advanced-menu-popup a.actParent {
+    color: #4D4D4D;
+}
+div.megnor-advanced-menu-popup a.act {
+    color: #A52A2A;
+}
+
+.block2 > p {
+    margin: 0;
+}
+div.megnor-advanced-menu-popup .block2 a{padding:0; margin:0;}
+
+div.column {
+    float: left;
+    padding:0 15px 10px 0;
+    width: 155px;
+}
+div.itemSubMenu {
+    /*margin-left:20px;*/
+	padding-top:0px;
+}
+.clearBoth {
+    clear:both;
+}
+
+div.megnor-advanced-menu-popup .block1		{ float: left; }
+div.megnor-advanced-menu-popup .block2		{ padding:0px; float: right; margin-left: 20px;}
+#advancedmenu .megnor-advanced-menu-popup .itemMenu  a	{ font-weight:normal;  font-size: 13px; transition:300ms;
+	-webkit-transition:300ms;
+	-moz-transition:300ms;}
+#advancedmenu .level1 > a.itemMenuName {
+    color:#1f2022;
+    font-size: 14px;
+    font-weight:500;
+    text-transform: capitalize;
+	position:relative;
+	margin:0 0 10px;
+}
+#advancedmenu .level1 > a.itemMenuName:hover{ color:#ff9c00;}
+
+.itemSubMenu .itemMenu 
+{
+	margin-left:0px;
+}
+.itemSubMenu .itemMenu a.itemMenuName
+{
+	line-height:25px;
+    color:#707070; 
+    font-weight: normal;
+    padding: 2px 0 2px 0px; 
+	position:relative;
+	margin:0;
+}
+.itemSubMenu .itemMenu a:hover,.itemSubMenu .itemMenu a.itemMenuName:hover:before{	color:#1f2022;}
+
+.custom_menu:hover .customblock_inner {    display: block;} 
+.customblock_inner		{ background:#FFF; width:250px; padding:5px;}
+
+
+.menu .parentMenu a span {
+    display: inline-block;
+	padding:0px 0px;
+    position: relative;
+}
+.parentMenu{/*display:inline-block; vertical-align:middle;*/}
