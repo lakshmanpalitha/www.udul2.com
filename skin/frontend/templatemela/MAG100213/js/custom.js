@@ -376,6 +376,15 @@ jQuery(function($k){
 				$k(this).toggleClass('active').parent().find('.category-wrapper').slideToggle('slow');
 	});
 });
+
+    $k('.fs2').flexslider({
+        animation: "slide"
+    });
+
+
+
+
+
 });
 
 

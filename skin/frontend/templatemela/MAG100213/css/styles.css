@@ -888,7 +888,7 @@ tr.summary-details-excluded { font-style:italic; }
 .itemMenu .itemMenuName {
     color: #1f2022;
     margin-bottom: 5px;
-    padding: 6px 10px 6px 0;
+    padding: 1px 10px 1px 0;
 }
 div.megnor-advanced-menu-popup a {
     padding: 5px 10px;
@@ -918,7 +918,7 @@ div.menu.active .parentMenu,div.menu:hover .parentMenu a{color:#ff9c00;}
 .mega_menu ul.block-content .menu.icon11 { background-position:5px -955px;}
 .mega_menu ul.block-content .menu.icon12 { background-position:5px -1045px;}
 .mega_menu ul.block-content .menu.icon13 { background-position:5px -1145px;}
-.mega_menu ul.block-content .menu.icon14 { background-position:5px -1248px;}
+.mega_menu ul.block-content .menu.icon14 { background-position:5px -1243px;}
 .mega_menu ul.block-content .menu.icon15 { background-position:5px -1345px;}
 .mega_menu ul.block-content .menu.icon16 { background-position:5px -1345px;}
 .mega_menu ul.block-content .menu.icon17 { background-position:5px -1345px;}
@@ -936,7 +936,7 @@ div.menu.active .parentMenu,div.menu:hover .parentMenu a{color:#ff9c00;}
 .mega_menu ul.block-content .menu.icon11:hover { background-position: 5px -1000px;}
 .mega_menu ul.block-content .menu.icon12:hover { background-position: 5px -1094px;}
 .mega_menu ul.block-content .menu.icon13:hover { background-position: 5px -1195px;}
-.mega_menu ul.block-content .menu.icon14:hover { background-position: 5px -1296px;}
+.mega_menu ul.block-content .menu.icon14:hover { background-position: 5px -1292px}
 .mega_menu ul.block-content .menu.icon15:hover { background-position: 5px -1397px;}
 .mega_menu ul.block-content .menu.icon16:hover { background-position: 5px -1397px;}
 .mega_menu ul.block-content .menu.icon17:hover { background-position: 5px -1397px;}
@@ -3794,5 +3794,10 @@ ul.tabbernav li, ul.tabbernav_product li	{  list-style:none; display:inline-bloc
 
 .list-of-sub-cat{}
 .list-of-sub-cat{margin-bottom: 10px; padding-bottom: 20px; border-bottom: solid 1px #ddd;}
-.list-of-sub-cat ul li {float: left; margin-left: 10px;}
+.list-of-sub-cat ul li {float: left; margin-left: 18px;  margin-top: 20px; text-align: center; padding: 5px; background: #efefef}
 .list-of-sub-cat ul li:first-child {margin-left: 0px;}
+.list-of-sub-cat ul li .image-cat {margin-left: 0px; width: 200px; height: 150px; overflow: hidden;}
+
+.itemMenu.level1{
+    width: 200px;
+}

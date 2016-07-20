@@ -80,7 +80,7 @@ $helper     = Mage::helper('catalog/category');
                 ?>
                 <li>
                     <a href="<?php echo $helper->getCategoryUrl($cat);?>">
-                        <img src="<?php echo $_img?>" title="$cat->getName()" width="200"/>
+                        <div class="image-cat"> <img src="<?php echo $_img?>" title="$cat->getName()" width="200"/></div>
                          <div><?php echo $cat->getName();?></div>
                     </a>
                 </li>

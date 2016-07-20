@@ -107,11 +107,11 @@ div.megnor-advanced-menu-popup .block2		{ padding:0px; float: right; margin-left
 	-moz-transition:300ms;}
 #advancedmenu .level1 > a.itemMenuName {
     color:#1f2022;
-    font-size: 14px;
-    font-weight:500;
-    text-transform: capitalize;
+    font-size: 13px;
+    font-weight:400;
 	position:relative;
-	margin:0 0 10px;
+	margin:0 0 5px;
+    text-transform: capitalize;
 }
 #advancedmenu .level1 > a.itemMenuName:hover{ color:#ff9c00;}
 

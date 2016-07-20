@@ -60,11 +60,11 @@
 					   <div class="product_hover-block">
 					<div class="actions">
 												
-<!--						--><?php //if($_product->isSaleable()): ?>
-<!--							<button type="button" title="--><?php //echo $this->__('Add to Cart') ?><!--" class="button btn-cart" onclick="setLocation('--><?php //echo $this->getAddToCartUrl($_product) ?><!--')"><span><span>--><?php //echo $this->__('Add to Cart') ?><!--</span></span></button>-->
-<!--						--><?php //else: ?>
-<!--							<p class="availability out-of-stock"><span>--><?php //echo $this->__('Out of stock') ?><!--</span></p>-->
-<!--						--><?php //endif; ?><!--  -->
+						<?php if($_product->isSaleable()): ?>
+							<button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+						<?php else: ?>
+							<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+						<?php endif; ?>
 						
 						<ul class="add-to-links">
 						<?php if ($this->helper('wishlist')->isAllow()) : ?>
@@ -77,17 +77,17 @@
 					</div>
 					</div>
 					</div>
-<!--					 <div class="product_desc">-->
-<!--						<h2 class="product-name" ><a href="--><?php //echo $_product->getProductUrl() ?><!--" title="--><?php //echo $this->escapeHtml($_product->getName()) ?><!--">--><?php //echo $this->escapeHtml($_product->getName())?><!--</a></h2> -->
-<!--                	--><?php //echo $this->getPriceHtml($_product, true) ?><!-- -->
-<!--				  --><?php //echo $this->getReviewsSummaryHtml($_product, 'short') ?>
-<!--				 -->
-<!--						-->
-<!--						--><?php //if($this->helper('framework')->isSpecialProduct($_product)):?>
-<!--					<div class="sale-label">--><?php //echo $this->__('Sale') ?><!--</div>-->
-<!--				--><?php //endif; ?>
-<!--				 		-->
-<!--					</div> -->
+					 <div class="product_desc">
+						<h2 class="product-name" ><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>"><?php echo $this->escapeHtml($_product->getName())?></a></h2>
+                	<?php echo $this->getPriceHtml($_product, true) ?>
+				  <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+
+
+						<?php if($this->helper('framework')->isSpecialProduct($_product)):?>
+					<div class="sale-label"><?php echo $this->__('Sale') ?></div>
+				<?php endif; ?>
+
+					</div>
 					
 				</div><!-- End div class product-block-->
 				</div><!-- End div class product-block-inner -->
